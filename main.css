@@ -9,15 +9,12 @@ body {
 
 .container {
   display: flex;
+  align-content: center;
 }
 
-section {
-  width: 50%;
-}
-
-img {
+.container {
+  height: 100vh;
   width: 100%;
-  height: 100%;
 }
 
 section.left {
@@ -25,9 +22,17 @@ section.left {
   align-items: center;
   flex-direction: column;
   align-content: center;
-  height: 100%;
+  height: 100vh;
+  width: 50%;
+  gap: 40px;
 }
 
 section.left h1 {
   color: rgb(213, 84, 84);
+  font-size: 30px;
+}
+section.right {
+  width: 50%;
+  background-image: url(images/bg.jpg);
+  background-size: cover;
 }
