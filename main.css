@@ -2,37 +2,41 @@ body {
   background-color: #fff;
   color: rgb(40, 40, 40);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  display: flex;
   padding: 0;
   margin: 0;
 }
 
-.container {
+body {
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  align-content: center;
 }
 
-.container {
-  height: 100vh;
-  width: 100%;
+section {
+  width: 50%;
 }
 
 section.left {
   display: flex;
   align-items: center;
   flex-direction: column;
-  align-content: center;
-  height: 100vh;
-  width: 50%;
-  gap: 40px;
+  justify-content: center;
 }
 
 section.left h1 {
   color: rgb(213, 84, 84);
-  font-size: 30px;
+  font-size: 50px;
+  display: block;
 }
-section.right {
-  width: 50%;
+
+section.right .img {
+  height: 100vh;
+  width: 50vw;
   background-image: url(images/bg.jpg);
+  background-position: center;
   background-size: cover;
+}
+
+form {
+  display: flex;
 }
