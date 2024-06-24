@@ -37,6 +37,19 @@ section.right .img {
   background-size: cover;
 }
 
-form {
+/* form {
   display: flex;
+} */
+
+input {
+  display: block;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: 20px;
+}
+
+a {
+  display: inline-block;
 }
